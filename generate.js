@@ -9,7 +9,7 @@ Utilize creative language, emojis, or other elements to make the tweet visually 
 Convey a sense of excitement and enthusiasm about the application to spark interest and engagement from the Twitter audience.
 Consider the target audience and tailor the tone and messaging accordingly.
 Refrain from making unsupported claims or using misleading language.
-Proofread the tweet for spelling and grammar before providing the final output. In ENGLISH only
+Proofread the tweet for spelling and grammar before providing the final output. In ENGLISH only.
 `;
 
 const generate = async (projectDescription) => {
