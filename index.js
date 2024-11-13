@@ -2,8 +2,6 @@ import express from "express";
 import cors from "cors";
 import generate from "./generate.js";
 
-const port = process.env.PORT || 8000;
-
 const app = express();
 
 app.use(express.json());
@@ -32,6 +30,6 @@ app.post("/api/generate", async (req, res) => {
   }
 });
 
-app.listen(port, () => {
+app.listen(8000, () => {
   console.log(`listening on port ${port} :)`);
 });
