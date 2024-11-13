@@ -31,5 +31,5 @@ app.post("/api/generate", async (req, res) => {
 });
 
 app.listen(8000, () => {
-  console.log(`listening on port ${port} :)`);
+  console.log(`listening on port 8000 :)`);
 });
